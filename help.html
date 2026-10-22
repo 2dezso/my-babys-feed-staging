@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Help · Little sips</title>
+<meta name="description" content="How to use Little sips: logging feeds, sharing with a partner, moving to a new phone, backups and contact.">
+<link rel="stylesheet" href="fonts/nunito.css">
+<script>if (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) document.documentElement.classList.add('native');</script>
+<style>
+  :root { --bg: #fbf2ed; --ink: #2b201c; --muted: #7a655d; --line: #efe1d8; --link: #1b7a43; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1513; --ink: #f6ebe5; --muted: #b9a49b; --line: #3a2d29; --link: #6fd69b; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Nunito', system-ui, sans-serif; line-height: 1.6; font-size: 1.0625rem; padding: calc(24px + env(safe-area-inset-top, 0px)) 20px 56px; }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 2rem; font-weight: 900; letter-spacing: -.02em; line-height: 1.15; margin: 8px 0 4px; }
+  h2 { font-size: 1.25rem; font-weight: 800; margin: 32px 0 6px; }
+  p, li { margin: 0 0 10px; }
+  ul, ol { padding-left: 1.2rem; margin: 0 0 10px; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); font-weight: 700; }
+  .back { display: inline-block; margin-bottom: 8px; padding: 10px 14px 10px 0; text-decoration: none; }
+  .box { border: 2px solid var(--line); border-radius: 14px; padding: 12px 16px; }
+  nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  nav li { margin: 0; }
+  /* Inside the iPhone app these pages are screens, not web pages: a bar with a back arrow under the status bar, and no
+     text selection or press-and-hold menus. */
+  .native { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+  .native body { padding-top: 0; }
+  .native .web-only { display: none; }
+  .native-only { display: none; }
+  .native .native-only { display: block; }
+  .native .back { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; min-height: 52px; margin: 0 -20px 8px; padding: env(safe-area-inset-top, 0px) 20px 0; background: var(--bg); border-bottom: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">‹ Back to the app</a>
+  <h1>Help</h1>
+  <p class="muted">Short answers to the questions people ask most. If yours is not here, email <a href="mailto:hello@littlesips.co.uk">hello@littlesips.co.uk</a> and I will get back to you.</p>
+
+  <nav aria-label="On this page">
+    <ul>
+      <li><a href="#feeds">Logging feeds</a></li>
+      <li><a href="#sharing">Sharing</a></li>
+      <li><a href="#new-phone">New or lost phone</a></li>
+      <li><a href="#reminders">Reminders and the lock screen timer</a></li>
+      <li><a href="#offline">No signal</a></li>
+      <li><a href="#backup">Backups</a></li>
+      <li><a href="#settings">Settings</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="feeds">Logging feeds</h2>
+  <ul>
+    <li><b>A feed happening now:</b> tap <b>Start feed</b> when it begins. When it is done, tap <b>Finish feed</b> and choose how much.</li>
+    <li><b>A feed you forgot:</b> tap <b>Log past</b> and scroll to the time. If you do not know the amount yet, tap <b>Save without an amount</b>.</li>
+    <li><b>Changing or deleting a feed:</b> tap it in the list. Everything can be changed, and <b>Delete this feed</b> is at the bottom.</li>
+    <li><b>Next feed:</b> when you finish a feed you can choose roughly when the next one is due. If it runs late, the app just shows how long ago it was expected. Every baby is different, so nothing is ever marked overdue.</li>
+  </ul>
+
+  <h2 id="sharing">Sharing with someone else</h2>
+  <p>Everyone who feeds the baby can use the same diary on their own phone. There are no accounts. Instead each diary has a short code.</p>
+  <ol>
+    <li>On your phone, open <b>Settings</b> and tap <b>Share code</b>.</li>
+    <li>On their phone, they open the app, tap <b>Join a household</b> and enter the code. Pasting the whole message you sent them works too.</li>
+  </ol>
+  <p>Whatever either of you logs then shows on both phones straight away.</p>
+  <p class="box">Anyone with the code can see and change the whole diary, including photos, so only share it with people you trust.</p>
+
+  <h2 id="new-phone">A new phone, or a lost one</h2>
+  <p>Your diary is not stored only on your phone, so nothing is lost when you change phones, as long as you have the code. On the new phone, open the app, tap <b>Join a household</b> and enter it. Everything comes back.</p>
+  <p>To keep a copy of the code, go to <b>Settings</b> and tap <b>Save a copy of the code</b>. You can send it to yourself, or save it in Notes. If someone else uses the diary, their phone also shows the code in Settings.</p>
+  <p>If every phone is lost and nobody kept the code, I cannot get the diary back for you. There are no accounts to reset.</p>
+  <p><b>Typed the wrong code, or want a different diary?</b> Go to <b>Settings</b>, then <b>Sharing</b>, and tap <b>Switch to another household</b>. It only changes this phone and nothing is deleted. When you enter a code the app looks it up first, and says so if there is nothing under it, which usually means a typo.</p>
+
+  <h2 id="reminders">Reminders and the lock screen timer</h2>
+  <p>In the iPhone app, go to <b>Settings</b> and choose <b>Next feed reminders</b>. You can have a notification 30 minutes before, 15 minutes before and when the next feed is due, in any combination. The first time, your phone asks if Little sips may send notifications. Say yes, or turn them on later in the iPhone Settings app.</p>
+  <p>Reminders are set on your phone, and they count from the last feed that phone has seen. If a partner logs a feed while your app is closed, open the app once so your reminders follow it.</p>
+  <p>While a feed is running, the lock screen and the Dynamic Island show a timer counting up from when you pressed <b>Start feed</b>. It disappears when you finish the feed. If you do not see it, check that Live Activities are on for Little sips in the iPhone Settings app. A feed started on another phone shows its timer here once you open the app.</p>
+
+  <h2 id="offline">Using it without signal</h2>
+  <p>Little sips needs an internet connection to show your feeds and to save new ones, so it is not for rooms with no reception. If the signal drops for a moment, anything you log is kept and sent as soon as it returns, as long as the app stays open. Other phones will not see it until then.<span class="web-only"> On the website, the last screen you opened can show again without a connection, but it will not save anything new.</span></p>
+
+  <h2 id="backup">Backups</h2>
+  <p>In <b>Settings</b>, tap <b>Download a backup</b>. Your phone saves a file with every feed, poo and moment. It includes your photos, so keep it somewhere private. It is worth doing now and then.</p>
+
+  <h2 id="settings">Settings and how the app looks</h2>
+  <ul>
+    <li><b>ml or oz:</b> in Settings, under Feeding. Amounts are always saved in ml, so switching never changes your history, and each phone can show its own unit.</li>
+    <li><b>Colour:</b> choose green, baby blue or rose in Settings.</li>
+    <li><b>Dark mode:</b> the app follows your phone. Turn on Dark Mode in your phone's settings and the app switches with it.</li>
+    <li class="web-only"><b>On the home screen:</b> in Safari on iPhone, tap the Share button, then <b>Add to Home Screen</b>. The app then opens full screen like any other app.</li>
+    <li class="web-only"><b>Next feed reminders:</b> these are only in the iPhone app from the App Store, because a website cannot send reliable notifications. They are set separately on each phone.</li>
+  </ul>
+
+  <h2>Is it medical advice?</h2>
+  <p>No. Expected times, totals and trends come from what you log. They help you notice patterns, not tell you what is right for your baby. If you are worried about your baby's feeding, weight or health, speak to your health visitor, midwife, GP or NHS 111. In an emergency, call 999.</p>
+
+  <h2 id="contact">Contact, privacy and deleting your diary</h2>
+  <ul>
+    <li>Questions, problems or ideas: email <a href="mailto:hello@littlesips.co.uk">hello@littlesips.co.uk</a>, or use <b>Send feedback</b> in Settings.</li>
+    <li>To delete your diary yourself, go to <b>Settings</b>, then <b>Your data</b>, and tap <b>Delete this household</b>. It shows what will go, offers to save a backup first, and asks you to type DELETE. It deletes everything for everyone who uses the code and cannot be undone. Other phones are told the next time they open the app. Or email me your code and I will remove it.</li>
+    <li>How your information is handled: <a href="privacy.html">Privacy</a>. The rules for using the app: <a href="terms.html">Terms of use</a>.</li>
+  </ul>
+</main>
+<script>
+  if (document.documentElement.classList.contains('native')) {
+    var back = document.querySelector('.back');
+    back.textContent = '‹ Back';
+    back.addEventListener('click', function (e) { if (history.length > 1) { e.preventDefault(); history.back(); } });
+  }
+</script>
+</body>
+</html>
